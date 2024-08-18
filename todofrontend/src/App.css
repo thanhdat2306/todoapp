@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "SF-Regular";
+  src: url("./assets/fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Black";
+  src: url("./assets/fonts/SF-Pro-Display-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Light";
+  src: url("./assets/fonts/SF-Pro-Display-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Medium";
+  src: url("./assets/fonts/SF-Pro-Display-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Medium-Italic";
+  src: url("./assets/fonts/SF-Pro-Display-MediumItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SF-Bold";
+  src: url("./assets/fonts/SF-Pro-Display-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Heavy";
+  src: url("./assets/fonts/SF-Pro-Display-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: "SF-Regular";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
