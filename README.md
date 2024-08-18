@@ -2,12 +2,7 @@
 
 Welcome to the ToDo Application! This is a simple yet powerful task management application that helps you keep track of your tasks efficiently. The project consists of a frontend built with React and a backend built with .NET Core.
 
-## Live Demo
 
-- **Frontend (Website)**: [ToDo Application](https://tufayltodoapp.vercel.app/) (deployed using Vercel)
-- **Backend (API)**: [ToDo API](https://tufayltodoapi.azurewebsites.net/swagger/index.html) (deployed using Azure)
-
-The site is mobile responsive for ease of use on any device.
 
 ## Features
 
@@ -70,9 +65,4 @@ By default, the frontend will call the APIs from the deployed backend at the lin
     - Comment the 6th line in the file `todofrontend/src/todoService.tsx`.
     - Uncomment the 7th line in the file `todofrontend/src/todoService.tsx` to connect to the local backend.
 
-## Deployment
 
-The application has been deployed to make it easy for you to use without setting up locally:
-
-- **Frontend**: Deployed using [Vercel](https://tufayltodoapp.vercel.app/).
-- **Backend**: Deployed using [Azure](https://tufayltodoapi.azurewebsites.net/swagger/index.html).
